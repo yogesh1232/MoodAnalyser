@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2004df74-d10b-452f-b9f1-02bf109cbc81": {
+      "ProjectGuid": "2004df74-d10b-452f-b9f1-02bf109cbc81",
+      "DisplayName": "MoodAnalyserProblem",
+      "ColorIndex": 0
+    },
+    "d8bebe4f-b711-4bb9-a21d-ad8580225a64": {
+      "ProjectGuid": "d8bebe4f-b711-4bb9-a21d-ad8580225a64",
+      "DisplayName": "MoodAnalyserTest",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
