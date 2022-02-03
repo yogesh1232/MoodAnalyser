@@ -176,5 +176,45 @@ namespace MoodAnalyserTest
                 Assert.AreEqual(expected, ex.Message);
             }
         }
+        /// TC-7.1-Change mood dynamically.
+        [TestMethod]
+        public void GivenSetMoodDynamically_ShouldReturnHappy()
+        {
+            string expected = "Happy";
+            string actual = MoodAnalyserFactory.SetFieldDynamic("Happy", "message");
+            expected.Equals(actual);
+        }
+    
+        /// TC-7.2 Given field name improper should return exception
+        [TestMethod]
+        public void GivenFieldNameImproper_ShouldReturnMoodAnaysisException()
+        {
+            string expected = "Field not found";
+            try
+            {
+                string actual = MoodAnalyserFactory.SetFieldDynamic("Happy", "msg");
+                expected.Equals(actual);
+            }
+            catch (MoodAnalyserException e)
+            {
+                Assert.AreEqual(expected, e.Message);
+            }
+        }
+
+        /// TC-7.3 Change message dynamically
+        [TestMethod]
+        public void ChangeMeassageDynamically_ShouldReturnMessage()
+        {
+            string expected = "Message should not be null";
+            try
+            {
+                string actual = MoodAnalyserFactory.SetFieldDynamic(null, "message");
+                expected.Equals(actual);
+            }
+            catch (MoodAnalyserException e)
+            {
+                Assert.AreEqual(expected, e.Message);
+            }
+        }
     }
 }
