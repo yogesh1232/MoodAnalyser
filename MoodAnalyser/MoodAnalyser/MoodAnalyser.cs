@@ -9,6 +9,11 @@ namespace MoodAnalyserProblem
     public class MoodAnalyser
     {
         public string message;
+
+        /// default contructor
+        public MoodAnalyser()
+        {
+        }
         public MoodAnalyser(string message)
         {
             this.message = message;
