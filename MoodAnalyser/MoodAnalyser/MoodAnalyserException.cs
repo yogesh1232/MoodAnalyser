@@ -11,7 +11,7 @@ namespace MoodAnalyserProblem
         private readonly ExceptionType type;
         public enum ExceptionType
         {
-            NULL_MOOD, EMPTY_MOOD, NO_SUCH_CLASS, NO_SUCH_CONSTRUCTOR
+            NULL_MOOD, EMPTY_MOOD, NO_SUCH_CLASS, NO_SUCH_CONSTRUCTOR, NO_SUCH_METHOD
         }
         public MoodAnalyserException(ExceptionType type, string message) : base(message)
         {
