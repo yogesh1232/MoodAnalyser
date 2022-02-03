@@ -32,5 +32,37 @@ namespace MoodAnalyserTest
             string actual = moodAnalyser.AnalyseMood();
             Assert.AreEqual(actual, "happy");
         }
+
+        //TC-3.1
+        [TestMethod]
+        public void GivenNullMood_ShouldReturnException()
+        {
+            string expected = "Mood is null";
+            try
+            {
+                MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+                string actual = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+        }
+
+        //TC-3.2
+        [TestMethod]
+        public void GivenEmptyMood_ShouldReturnException()
+        {
+            string expected = "Mood is empty";
+            try
+            {
+                MoodAnalyser moodAnalyser = new MoodAnalyser("");
+                string actual = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+        }
     }
 }
