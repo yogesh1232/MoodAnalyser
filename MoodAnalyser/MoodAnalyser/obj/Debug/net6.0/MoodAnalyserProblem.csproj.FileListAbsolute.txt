@@ -1,0 +1,14 @@
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyserProblem.exe
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyserProblem.deps.json
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyserProblem.runtimeconfig.json
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyserProblem.dll
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\ref\MoodAnalyserProblem.dll
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\bin\Debug\net6.0\MoodAnalyserProblem.pdb
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.AssemblyInfoInputs.cache
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.AssemblyInfo.cs
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.csproj.CoreCompileInputs.cache
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.dll
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\ref\MoodAnalyserProblem.dll
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.pdb
+C:\Users\sanjay\source\repos\MoodAnalyser\MoodAnalyser\MoodAnalyser\obj\Debug\net6.0\MoodAnalyserProblem.genruntimeconfig.cache
