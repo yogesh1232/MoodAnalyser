@@ -13,18 +13,23 @@ namespace MoodAnalyserProblem
         {
             this.message = message;
         }
-        /// <summary>
-        /// anayse the mood
-        /// </summary>
+        /// analyse the mood
         /// <param name="message"></param>
         /// <returns>happy or sad mood </returns>
         public string AnalyseMood()
         {
-            message = message.ToLower();
-            if (message.Contains("Happy"))
-                return "HAPPY";
-            else
-                return "SAD";
+            try
+            {
+                message = message.ToLower();
+                if (message.Contains("Happy"))
+                    return "happy";
+                else
+                    return "SAD";
+            }
+            catch (NullReferenceException e)
+            {
+                return "happy";
+            }
         }
     }
     
