@@ -151,5 +151,30 @@ namespace MoodAnalyserTest
             object actual = MoodAnalyserFactory.CreateMoodAnalyserOptionalVariable("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser", "I am Parameter constructor");
             expected.Equals(actual);
         }
+
+        /// TC-6.1 Invokes the method using reflection and should return happy
+        [TestMethod]
+        public void InvokeMethodReflection_ShouldRetunHappy()
+        {
+            string expected = "happy";
+            string actual = MoodAnalyserFactory.InvokeAnalyseMood("I am happy", "AnalyseMood");
+            expected.Equals(actual);
+        }
+
+        /// TC-6.2  should throw method not found exception.
+        [TestMethod]
+        public void GivenMethodnameImproper_ShouldReturnMoodAnalysisException()
+        {
+            string expected = "No method found";
+            try
+            {
+                string actual = MoodAnalyserFactory.InvokeAnalyseMood("I am happy", "MoodAnalyse");
+                expected.Equals(actual);
+            }
+            catch (MoodAnalyserException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+        }
     }
 }
